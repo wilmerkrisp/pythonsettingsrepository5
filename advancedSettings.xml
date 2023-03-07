@@ -1,0 +1,10 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="editor.open.inactive.splitter" value="false" />
+        <entry key="terminal.buffer.max.lines.count" value="2000000" />
+      </map>
+    </option>
+  </component>
+</application>
