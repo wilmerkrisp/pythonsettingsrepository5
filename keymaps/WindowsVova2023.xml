@@ -7,7 +7,10 @@
     <keyboard-shortcut first-keystroke="alt 7" />
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="Arrangement.Rule.Group.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
@@ -67,7 +70,9 @@
   <action id="Docker.RemoteServers.StopContainer" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
-  <action id="EditSource" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="1" />
     <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad1" />
@@ -165,6 +170,10 @@
   </action>
   <action id="Jdbc.OpenEditor.Data" />
   <action id="JumpToLastWindow" />
+  <action id="JupyterNotebookMoveCellDownCommandModeAction">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="MethodDown" />
   <action id="ModifyObject" />
   <action id="Move" />
   <action id="NavBar-navigate" />
@@ -204,11 +213,13 @@
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="ShelvedChanges.Rename" />
+  <action id="ShowContent" />
   <action id="ShowErrorDescription" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="ShowSearchHistory" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="alt comma" />
@@ -235,6 +246,7 @@
     <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Log.Refresh" />
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl f8" />
