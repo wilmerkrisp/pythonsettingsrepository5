@@ -1,5 +1,20 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
+  <inspection_tool class="DuplicatedInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="InstalledPackageInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoreConstantInTheMiddle" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredIdentifiers">
+      <list>
+        <option value="list.find" />
+      </list>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="ReferenceExistsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnusedInspection" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
   <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
